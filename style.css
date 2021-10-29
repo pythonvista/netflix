@@ -1,0 +1,1201 @@
+
+
+body{
+font-size: 8px;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  
+  
+  
+  
+  
+  
+}
+
+
+.container{
+  font-size: 2.3em;
+  background-image:linear-gradient(
+    45deg, rgb(7 7 7 / 59%) -57.5%, rgba(5, 5, 5, 0.863) 98.72%), url(./img/mss.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-bottom: 5.5em;
+  
+  border-bottom: 8px solid rgb(26, 25, 25);
+   
+  
+}
+
+
+
+
+
+.nav{
+  
+  display: flex;
+  padding: 0.5rem 2em;
+  
+  align-items: center;
+  background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.897), transparent);
+  
+  
+  
+  
+  
+  
+  
+}
+
+.logo{
+  flex: 1;
+ 
+  
+  
+}
+
+.log{
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
+
+.log .a{
+  font-size: 1.2em;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(228, 13, 13);
+  padding: 0.3em 0.7em;
+  border-radius: 0.2em;
+}
+
+
+
+
+
+.logo img{
+  width: 25%;
+  
+}
+
+.heading{
+  padding: 2em 1em;
+  
+  margin: 4em auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.heading h2{
+
+  color: white;
+  font-size: 3.3em;
+  margin: 0.6em 0;
+  font-weight: bolder;
+
+
+}
+
+.heading h3{
+
+  color: white;
+  font-size: 2em;
+  margin: 0;
+
+
+}
+
+.heading p{
+
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 1em 0;
+
+
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.form input{
+  width: 55%;
+  padding: 2.14em 3.5em;
+}
+
+
+.form a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.9em;
+  background-color: red;
+  padding:0.5em 1.1em;
+  
+  
+}
+.part1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8em 10em;
+  border-bottom: 8px solid rgb(26, 25, 25);
+}
+
+.part1 .enjoy{
+  
+  text-align: left;
+  width: 60%;
+  padding: 0 7em;
+
+}
+
+.part1 .enjoy h1{
+  text-align: left;
+  font-size: 8.2em;
+  font-family: sans-serif;
+  margin: 0.3em 0;
+
+}
+.part1 .enjoy p{
+  text-align: left;
+  font-size: 4.5em;
+  
+
+}
+
+.part1 .img2{
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.part1 .img2 img{
+  width: 90%;
+
+}
+
+.part1 .img2 video{
+  width: 70%;
+  position: absolute;
+  top: 9.5em;
+  left: 11em;
+  z-index: -1;
+
+}
+
+.part2{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 8em 10em;
+  border-bottom: 8px solid rgb(26, 25, 25);
+}
+
+.part2 .enjoy{
+  text-align: left;
+  width: 60%;
+  padding: 0 7em;
+
+}
+
+.part2 .enjoy h1{
+  text-align: left;
+  font-size: 8.2em;
+  font-family: sans-serif;
+  margin: 0.3em 0;
+
+}
+.part2 .enjoy p{
+  text-align: left;
+  font-size: 4.5em;
+  
+
+}
+
+.part2 .img2{
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.part2 .img2 img{
+  width: 90%;
+
+}
+
+.part2 .img2 video{
+  width: 70%;
+  position: absolute;
+  top: 9.5em;
+  left: 11em;
+  z-index: -1;
+
+}
+
+.box{
+  border: 0.5em solid  rgb(26, 25, 25) ;
+  border-radius: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 10;
+  background-color: black;
+  top: 37em;
+  gap: 1em;
+}
+.box .thing{
+flex: 1;
+}
+.box .thing img{
+  width: 60%;
+  padding: 0 0.8em;
+}
+
+.box .box-text{
+  flex: 2;
+
+}
+
+.box .box-text h3{
+  font-size: 2.4em;
+
+}
+
+.box .box-text h5{
+  font-size: 2em;
+  color: rgba(43, 43, 194, 0.911);
+
+}
+.box .download{
+flex: 1;
+}
+
+.part3{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8em 10em;
+  
+  border-bottom: 8px solid rgb(26, 25, 25);
+}
+
+.part3 .enjoy{
+  text-align: left;
+  width: 60%;
+  padding: 0 7em;
+
+}
+
+.part3 .enjoy h1{
+  text-align: left;
+  font-size: 7.2em;
+  font-family: sans-serif;
+  margin: 0.2em 0;
+
+}
+.part3 .enjoy p{
+  text-align: left;
+  font-size: 4.5em;
+  
+
+}
+
+
+
+@media screen and (min-width:756px) and (max-width:1380px){
+
+  body{
+    font-size: 5.5px;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      color: white;
+      
+      
+    }
+
+    
+
+    .container{
+      height: 100%;
+      padding-bottom: 3em;
+     
+      border-bottom: 8px solid rgb(26, 25, 25);
+    }
+
+
+  .log{
+    padding: 0 ;
+  }
+
+
+  
+
+    .logo img{
+      width: 50%;
+      padding: 0 0.6em;
+    }
+
+
+.heading{
+  padding: 2em 1em;
+  
+  margin: 4em auto;
+  width: 89%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.heading h2{
+
+  color: white;
+  font-size: 2.35em;
+  margin: 0.6em 0;
+  font-weight: bold;
+
+
+}
+
+.heading h3{
+
+  color: white;
+  font-size: 1.4em;
+  margin: 0;
+
+
+}
+
+.heading p{
+
+  color: white;
+  font-size: 1.3em;
+  margin: 1em 0;
+
+
+}
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2em;
+}
+
+.form input{
+  width: 90%;
+  padding: 0.8em 0.3em;
+}
+
+.form a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  background-color: red;
+  padding:0.5em 1.1em;
+  border-radius: 0.2em;
+}
+
+.part1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7em 0;
+  
+  border-bottom: 8px solid rgb(26, 25, 25);
+  
+}
+
+.part1 .enjoy{
+  text-align: center;
+  
+  padding: 0 ;
+  width: 100%;
+  
+
+}
+
+.part1 .enjoy h1{
+  text-align: center;
+  font-size: 5.2em;
+  font-family: sans-serif;
+  
+
+}
+.part1 .enjoy p{
+  text-align: center;
+  font-size: 2.5em;
+  padding: 0 1em;
+  
+  
+
+}
+
+.part1 .img2{
+  position: relative;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.part1 .img2 img{
+  width: 100%;
+
+}
+
+.part1 .img2 video{
+  width: 74%;
+  position: absolute;
+  top: 20em;
+  left: 15.5em;
+  z-index: -1;
+
+}
+
+/* the part 2 css styling is here */
+.part2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7em 0;
+  
+  border-bottom: 8px solid rgb(26, 25, 25);
+  
+}
+
+.part2 .enjoy{
+  text-align: center;
+  
+  padding: 0 ;
+  width: 100%;
+  
+
+}
+
+.part2 .enjoy h1{
+  text-align: center;
+  font-size: 5.2em;
+  font-family: sans-serif;
+  
+
+}
+.part2 .enjoy p{
+  text-align: center;
+  font-size: 2.5em;
+  padding: 0 1em;
+  
+  
+
+}
+
+.part2 .img2{
+  position: relative;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.part2 .img2 img{
+  width: 100%;
+
+}
+.part3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7em 0;
+  
+  border-bottom: 8px solid rgb(26, 25, 25);
+  
+}
+
+.part3 .enjoy{
+  text-align: center;
+  
+  padding: 0 ;
+  width: 100%;
+  
+
+}
+
+.part3 .enjoy h1{
+  text-align: center;
+  font-size: 5.2em;
+  font-family: sans-serif;
+  
+
+}
+.part3 .enjoy p{
+  text-align: center;
+  font-size: 2.5em;
+  padding: 0 1em;
+  
+  
+
+}
+
+
+
+.box{
+  border: 0.5em solid  rgb(26, 25, 25) ;
+  border-radius: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 20em;
+  background-color: black;
+  top: 76em;
+  gap: 1em;
+  width: 70%;
+}
+.box .thing{
+flex: 1;
+}
+.box .thing img{
+  width: 60%;
+  padding: 0 0.8em;
+}
+
+.box .box-text{
+  flex: 2;
+
+}
+
+.box .box-text h3{
+  font-size: 2.4em;
+
+}
+
+.box .box-text h5{
+  font-size: 2em;
+  color: rgba(43, 43, 194, 0.911);
+
+}
+.box .download{
+flex: 1;
+}
+}
+
+
+@media screen and (max-width:790px){
+
+  body{
+    font-size: 5.3px;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      color: white;
+      
+      
+    }
+
+    .nav{
+      padding: 1em 0.2em;
+    }
+
+    .container{
+      height: 100%;
+      padding-bottom: 3em;
+     
+      border-bottom: 8px solid rgb(26, 25, 25);
+    }
+
+
+  .log{
+    padding: 0 1.1em;
+  }
+
+    .logo img{
+      width: 70%;
+      padding: 0 0.6em;
+    }
+
+
+.heading{
+  padding: 2em 1em;
+  
+  margin: 4em auto;
+  width: 89%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.heading h2{
+
+  color: white;
+  font-size: 2.35em;
+  margin: 0.6em 0;
+  font-weight: bold;
+
+
+}
+
+.heading h3{
+
+  color: white;
+  font-size: 1.4em;
+  margin: 0;
+
+
+}
+
+.heading p{
+
+  color: white;
+  font-size: 1.3em;
+  margin: 1em 0;
+
+
+}
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2em;
+}
+
+.form input{
+  width: 90%;
+  padding: 0.8em 0.3em;
+}
+
+.form a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  background-color: red;
+  padding:0.5em 1.1em;
+  border-radius: 0.2em;
+}
+
+.part1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7em 0;
+  
+  border-bottom: 8px solid rgb(26, 25, 25);
+  
+}
+
+.part1 .enjoy{
+  text-align: center;
+  
+  padding: 0 ;
+  width: 100%;
+  
+
+}
+
+.part1 .enjoy h1{
+  text-align: center;
+  font-size: 5.2em;
+  font-family: sans-serif;
+  
+
+}
+.part1 .enjoy p{
+  text-align: center;
+  font-size: 2.5em;
+  padding: 0 1em;
+  
+  
+
+}
+
+.part1 .img2{
+  position: relative;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.part1 .img2 img{
+  width: 100%;
+
+}
+
+.part1 .img2 video{
+  width: 72%;
+  position: absolute;
+  top: 8.5em;
+  left: 7.5em;
+  z-index: -1;
+
+}
+
+/* the part 2 css styling is here */
+.part2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7em 0;
+  
+  border-bottom: 8px solid rgb(26, 25, 25);
+  
+}
+
+.part2 .enjoy{
+  text-align: center;
+  
+  padding: 0 ;
+  width: 100%;
+  
+
+}
+
+.part2 .enjoy h1{
+  text-align: center;
+  font-size: 5.2em;
+  font-family: sans-serif;
+  
+
+}
+.part2 .enjoy p{
+  text-align: center;
+  font-size: 2.5em;
+  padding: 0 1em;
+  
+  
+
+}
+
+.part2 .img2{
+  position: relative;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.part2 .img2 img{
+  width: 100%;
+
+}
+.part3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7em 0;
+  
+  border-bottom: 8px solid rgb(26, 25, 25);
+  
+}
+
+.part3 .enjoy{
+  text-align: center;
+  
+  padding: 0 ;
+  width: 100%;
+  
+
+}
+
+.part3 .enjoy h1{
+  text-align: center;
+  font-size: 5.2em;
+  font-family: sans-serif;
+  
+
+}
+.part3 .enjoy p{
+  text-align: center;
+  font-size: 2.5em;
+  padding: 0 1em;
+  
+  
+
+}
+
+
+
+.box{
+  border: 0.5em solid  rgb(26, 25, 25) ;
+  border-radius: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  gap: 1em;
+  
+  top: 26em;
+  position: absolute;
+  width: 100%;
+  margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+  
+  
+  
+  
+}
+
+
+.box .thing{
+flex: 1;
+}
+.box .thing img{
+  width: 60%;
+  padding: 0 0.8em;
+}
+
+.box .box-text{
+  flex: 2;
+
+}
+
+.box .box-text h3{
+  font-size: 2.4em;
+
+}
+
+.box .box-text h5{
+  font-size: 2em;
+  color: rgba(43, 43, 194, 0.911);
+
+}
+.box .download{
+flex: 1;
+}
+
+
+}
+
+@media screen and (max-width:520px){
+
+  body{
+    font-size: 5.3px;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      color: white;
+      
+      
+    }
+
+    .nav{
+      padding: 1em 0.2em;
+    }
+
+    .container{
+      height: 100%;
+      padding-bottom: 3em;
+     
+      border-bottom: 8px solid rgb(26, 25, 25);
+    }
+
+
+  .log{
+    padding: 0 1.1em;
+  }
+
+    .logo img{
+      width: 70%;
+      padding: 0 0.6em;
+    }
+
+
+.heading{
+  padding: 2em 1em;
+  
+  margin: 4em auto;
+  width: 89%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.heading h2{
+
+  color: white;
+  font-size: 2.35em;
+  margin: 0.6em 0;
+  font-weight: bold;
+
+
+}
+
+.heading h3{
+
+  color: white;
+  font-size: 1.4em;
+  margin: 0;
+
+
+}
+
+.heading p{
+
+  color: white;
+  font-size: 1.3em;
+  margin: 1em 0;
+
+
+}
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2em;
+}
+
+.form input{
+  width: 90%;
+  padding: 0.8em 0.3em;
+}
+
+.form a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  background-color: red;
+  padding:0.5em 1.1em;
+  border-radius: 0.2em;
+}
+
+.part1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7em 0;
+  
+  border-bottom: 8px solid rgb(26, 25, 25);
+  
+}
+
+.part1 .enjoy{
+  text-align: center;
+  
+  padding: 0 ;
+  width: 100%;
+  
+
+}
+
+.part1 .enjoy h1{
+  text-align: center;
+  font-size: 5.2em;
+  font-family: sans-serif;
+  
+
+}
+.part1 .enjoy p{
+  text-align: center;
+  font-size: 2.5em;
+  padding: 0 1em;
+  
+  
+
+}
+
+.part1 .img2{
+  position: relative;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.part1 .img2 img{
+  width: 100%;
+
+}
+
+.part1 .img2 video{
+  width: 72%;
+  position: absolute;
+  top: 8.5em;
+  left: 7.5em;
+  z-index: -1;
+
+}
+
+/* the part 2 css styling is here */
+.part2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12em 0;
+  
+  border-bottom: 8px solid rgb(26, 25, 25);
+  
+}
+
+.part2 .enjoy{
+  text-align: center;
+  
+  padding: 0 ;
+  width: 100%;
+  
+
+}
+
+.part2 .enjoy h1{
+  text-align: center;
+  font-size: 5em;
+  font-family: sans-serif;
+  
+
+}
+.part2 .enjoy p{
+  text-align: center;
+  font-size: 2.5em;
+  padding: 0 1em;
+  
+  
+
+}
+
+.part2 .img2{
+  position: relative;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.part2 .img2 img{
+  width: 100%;
+
+}
+.part3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7em 0;
+  
+  border-bottom: 8px solid rgb(26, 25, 25);
+  
+}
+
+.part3 .enjoy{
+  text-align: center;
+  
+  padding: 0 ;
+  width: 100%;
+  
+
+}
+
+.part3 .enjoy h1{
+  text-align: center;
+  font-size: 5.2em;
+  font-family: sans-serif;
+  
+
+}
+.part3 .enjoy p{
+  text-align: center;
+  font-size: 2.5em;
+  padding: 0 1em;
+  
+  
+
+}
+
+
+
+.box{
+  border: 0.5em solid  rgb(26, 25, 25) ;
+  border-radius: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  gap: 1em;
+  
+  top: 30em;
+  position: absolute;
+  width: 100%;
+  margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+  
+  
+  
+  
+}
+
+
+.box .thing{
+flex: 1;
+}
+.box .thing img{
+  width: 60%;
+  padding: 0 0.8em;
+}
+
+.box .box-text{
+  flex: 2;
+
+}
+
+.box .box-text h3{
+  font-size: 2.4em;
+
+}
+
+.box .box-text h5{
+  font-size: 2em;
+  color: rgba(43, 43, 194, 0.911);
+
+}
+.box .download{
+flex: 1;
+}
+}
